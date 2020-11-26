@@ -10,10 +10,17 @@ Compilateur    : Mingw-w64 g++ 8.1.0
  */
 #include <cstdlib>
 #include <iostream>
+#include <array>
+#include "jeuDeLaVie.h"
 
 using namespace std;
 
 int main() {
+   array<array<char, COLONNES>, LIGNES> tableau;
 
+   for (int i = 0; i < tableau.size(); i++) {
+      tableau[i].fill('.');
+   }
+   afficher(tableau);
    return EXIT_SUCCESS;
 }
