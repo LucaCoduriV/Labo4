@@ -142,6 +142,33 @@ Labo4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labo4.dir\build.make CMakeFiles/Labo4.dir/build
 .PHONY : Labo4/fast
 
+jeuDeLaVie.obj: jeuDeLaVie.cpp.obj
+
+.PHONY : jeuDeLaVie.obj
+
+# target to build an object file
+jeuDeLaVie.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labo4.dir\build.make CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.obj
+.PHONY : jeuDeLaVie.cpp.obj
+
+jeuDeLaVie.i: jeuDeLaVie.cpp.i
+
+.PHONY : jeuDeLaVie.i
+
+# target to preprocess a source file
+jeuDeLaVie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labo4.dir\build.make CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.i
+.PHONY : jeuDeLaVie.cpp.i
+
+jeuDeLaVie.s: jeuDeLaVie.cpp.s
+
+.PHONY : jeuDeLaVie.s
+
+# target to generate assembly for a file
+jeuDeLaVie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labo4.dir\build.make CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.s
+.PHONY : jeuDeLaVie.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Labo4
+	@echo ... jeuDeLaVie.obj
+	@echo ... jeuDeLaVie.i
+	@echo ... jeuDeLaVie.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
