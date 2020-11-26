@@ -8,12 +8,8 @@ Remarque(s)    : <à compléter>
 Compilateur    : Mingw-w64 g++ 8.1.0
  -----------------------------------------------------------------------------------
  */
-#include <cstdlib>
-#include <iostream>
 
-using namespace std;
+#ifndef LABO4_JEUDELAVIE_H
+#define LABO4_JEUDELAVIE_H
 
-int main() {
-
-   return EXIT_SUCCESS;
-}
+#endif //LABO4_JEUDELAVIE_H

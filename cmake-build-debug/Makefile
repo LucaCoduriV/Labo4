@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4"
+CMAKE_SOURCE_DIR = C:\Users\cfont\CLion\Labo4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\cfont\CLion\Labo4\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug\CMakeFiles" "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cfont\CLion\Labo4\cmake-build-debug\CMakeFiles C:\Users\cfont\CLion\Labo4\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\cfont\CLion\Labo4\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,33 @@ Labo4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labo4.dir\build.make CMakeFiles/Labo4.dir/build
 .PHONY : Labo4/fast
 
+jeuDeLaVie.obj: jeuDeLaVie.cpp.obj
+
+.PHONY : jeuDeLaVie.obj
+
+# target to build an object file
+jeuDeLaVie.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labo4.dir\build.make CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.obj
+.PHONY : jeuDeLaVie.cpp.obj
+
+jeuDeLaVie.i: jeuDeLaVie.cpp.i
+
+.PHONY : jeuDeLaVie.i
+
+# target to preprocess a source file
+jeuDeLaVie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labo4.dir\build.make CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.i
+.PHONY : jeuDeLaVie.cpp.i
+
+jeuDeLaVie.s: jeuDeLaVie.cpp.s
+
+.PHONY : jeuDeLaVie.s
+
+# target to generate assembly for a file
+jeuDeLaVie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Labo4.dir\build.make CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.s
+.PHONY : jeuDeLaVie.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Labo4
+	@echo ... jeuDeLaVie.obj
+	@echo ... jeuDeLaVie.i
+	@echo ... jeuDeLaVie.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
