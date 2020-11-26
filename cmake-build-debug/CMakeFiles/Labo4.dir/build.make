@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cfont\CLion\Labo4
+CMAKE_SOURCE_DIR = "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cfont\CLion\Labo4\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Labo4.dir/depend.make
@@ -78,29 +78,29 @@ include CMakeFiles/Labo4.dir/flags.make
 
 CMakeFiles/Labo4.dir/main.cpp.obj: CMakeFiles/Labo4.dir/flags.make
 CMakeFiles/Labo4.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cfont\CLion\Labo4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Labo4.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Labo4.dir\main.cpp.obj -c C:\Users\cfont\CLion\Labo4\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Labo4.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Labo4.dir\main.cpp.obj -c "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\main.cpp"
 
 CMakeFiles/Labo4.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labo4.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cfont\CLion\Labo4\main.cpp > CMakeFiles\Labo4.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\main.cpp" > CMakeFiles\Labo4.dir\main.cpp.i
 
 CMakeFiles/Labo4.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labo4.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cfont\CLion\Labo4\main.cpp -o CMakeFiles\Labo4.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\main.cpp" -o CMakeFiles\Labo4.dir\main.cpp.s
 
 CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.obj: CMakeFiles/Labo4.dir/flags.make
-CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.obj: jeuDeLaVie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cfont\CLion\Labo4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Labo4.dir\jeuDeLaVie.cpp.obj -c C:\Users\cfont\CLion\Labo4\cmake-build-debug\jeuDeLaVie.cpp
+CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.obj: ../jeuDeLaVie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Labo4.dir\jeuDeLaVie.cpp.obj -c "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\jeuDeLaVie.cpp"
 
 CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\cfont\CLion\Labo4\cmake-build-debug\jeuDeLaVie.cpp > CMakeFiles\Labo4.dir\jeuDeLaVie.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\jeuDeLaVie.cpp" > CMakeFiles\Labo4.dir\jeuDeLaVie.cpp.i
 
 CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labo4.dir/jeuDeLaVie.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\cfont\CLion\Labo4\cmake-build-debug\jeuDeLaVie.cpp -o CMakeFiles\Labo4.dir\jeuDeLaVie.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\jeuDeLaVie.cpp" -o CMakeFiles\Labo4.dir\jeuDeLaVie.cpp.s
 
 # Object files for target Labo4
 Labo4_OBJECTS = \
@@ -116,7 +116,7 @@ Labo4.exe: CMakeFiles/Labo4.dir/build.make
 Labo4.exe: CMakeFiles/Labo4.dir/linklibs.rsp
 Labo4.exe: CMakeFiles/Labo4.dir/objects1.rsp
 Labo4.exe: CMakeFiles/Labo4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cfont\CLion\Labo4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Labo4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Labo4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Labo4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +129,6 @@ CMakeFiles/Labo4.dir/clean:
 .PHONY : CMakeFiles/Labo4.dir/clean
 
 CMakeFiles/Labo4.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cfont\CLion\Labo4 C:\Users\cfont\CLion\Labo4 C:\Users\cfont\CLion\Labo4\cmake-build-debug C:\Users\cfont\CLion\Labo4\cmake-build-debug C:\Users\cfont\CLion\Labo4\cmake-build-debug\CMakeFiles\Labo4.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4" "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4" "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug" "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug" "D:\Users\lucac\Google Drive\HEIG\PROG1\Labo4\cmake-build-debug\CMakeFiles\Labo4.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Labo4.dir/depend
 

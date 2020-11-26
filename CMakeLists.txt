@@ -3,4 +3,4 @@ project(Labo4)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Labo4 main.cpp jeuDeLaVie.h cmake-build-debug/jeuDeLaVie.cpp)
+add_executable(Labo4 main.cpp jeuDeLaVie.cpp jeuDeLaVie.h)
