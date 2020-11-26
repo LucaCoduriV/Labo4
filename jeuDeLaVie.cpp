@@ -4,6 +4,7 @@
 
 #include "jeuDeLaVie.h"
 #include <array>
+#include <algorithm>
 
 using namespace std;
 
@@ -18,7 +19,7 @@ array<array<char, 11>,10> calculeGenSuivante(const array<array<char, 11>,10>&
 
    for(size_t i = 0; i < genActu.size(); i++ ){
       for(size_t j = 0; j < genActu.at(i).size(); j++ ){
-         if(etatSuivantCellule(genActu.at(i).at(j), 5) ){
+         if(etatSuivantCellule(genActu.at(i).at(j), 2) ){
             genSuiv.at(i).at(j) = 'X';
          }else{
             genSuiv.at(i).at(j) = '.';
